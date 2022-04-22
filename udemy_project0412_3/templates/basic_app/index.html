@@ -7,10 +7,10 @@
 </div>
 
 <h1>QR読み取りテスト</h1>
-  <video id="camera_preview" ></video>
+  <video id="preview" ></video>
 
   <script type="text/javascript">
-    let scanner = new Instascan.Scanner({ video: document.getElementById('camera_preview') });
+    let scanner = new Instascan.Scanner({ video: document.getElementById('preview') });
     scanner.addListener('scan', function (content) {
       console.log(content);
     });
