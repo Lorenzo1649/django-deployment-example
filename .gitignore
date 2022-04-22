@@ -1,0 +1,5 @@
+# ignore all .log files
+*.log
+
+# ignore files with security key
+local_settings.py
